@@ -1,0 +1,281 @@
+.student {
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+}
+
+.student p {
+  margin: 0;
+}
+
+.welcome-message {
+  font-size: 2.5em;
+  background-color: hsl(120, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt {
+  font-size: 2.5em;
+  background-color: hsl(0, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(185, 100%, 50%);
+}
+.list-items li {
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover {
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
+}
+
+/* Counter */
+
+.counter-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.count-display {
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.count-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(197, 100%, 58%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.count-button:hover {
+  background-color: hsl(197, 100%, 48%);
+}
+
+/* Color Picker */
+/* body {
+  font-family: Arial, sans-serif;
+} */
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin: 50px;
+  font-size: 3rem;
+}
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+.color-display p {
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="color"] {
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+}
+
+/* ToDOList */
+/* body {
+  background-color: hsl(0, 0%, 10%); // uncomment when you run To-Do-List App
+} */
+.to-do-list {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 100px 50px 0px 50px;
+}
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+/* button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+} */
+.add-button {
+  background-color: hsl(125, 47%, 54%);
+  margin-left: 20px;
+}
+.add-button:hover {
+  background-color: hsl(125, 47%, 44%);
+}
+.delete-button {
+  background-color: hsl(10, 90%, 50%);
+}
+.delete-button:hover {
+  background-color: hsl(10, 90%, 40%);
+}
+.move-button {
+  background-color: hsl(207, 90%, 64%);
+}
+.move-button:hover {
+  background-color: hsl(207, 90%, 54%);
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+ol {
+  padding: 0;
+}
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  margin-left: 25px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.text {
+  flex: 1;
+}
+.delete-button,
+.move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+/* Digital Clock */
+/* body {
+  background-image: url(assets/Natural.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  /* Optional */
+/*display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+} */
+.clock-container {
+  backdrop-filter: blur(5px);
+  padding: 10px 0;
+  width: 95vw;
+}
+.clock {
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+}
+
+/* Stop Watch */
+body {
+  display: fleX;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+.stopwatch {
+  display: fleX;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.display {
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+  margin-bottom: 25px;
+}
+
+.controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.start-button {
+  background-color: hsl(115, 100%, 40%);
+}
+.start-button:hover {
+  background-color: hsl(115, 100%, 35%);
+}
+.stop-button {
+  background-color: hsl(10, 90%, 50%);
+}
+.stop-button:hover {
+  background-color: hsl(10, 90%, 45%);
+}
+.reset-button {
+  background-color: hsl(205, 90%, 60%);
+}
+.reset-button:hover {
+  background-color: hsl(205, 90%, 55%);
+}
